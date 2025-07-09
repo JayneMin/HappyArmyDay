@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Army Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Content&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Music Start Popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>💜 Happy ARMY Day! 💜</h2>
+            <p>Click anywhere to start the music 🎵</p>
+        </div>
+    </div>
+
+    <!-- Greeting Card -->
+    <div class="body">
+        <div class="card">
+            <div class="cardfront">
+                <img src="9b09d9c4a20d3a9bcc9a14d366065c7e.jpg" class="army" alt="army"/>
+            </div>
+            <div class="cardinside">
+                <h3 class="back">💜 HAPPY ANNIVERSARY ARMY! 💜</h3>
+                <p>Dear ARMY,</p>
+                <p>រយៈពេលជាង 12ឆ្នាំមកនេះពិតជាលឿនខ្លាំងណាស់ អរគុណ Army ទាំងអស់គ្នាដែលតែងតែការពារនិងរួមដំណើរជាមួយ Bangtan រហូតមក មិនថាមានឧបសគ្គ ឬមានបញ្ហាតាមមកមិនឈប់ក៏ដោយ ក៏ពួកយើងនៅតែតស៊ូជម្នះមិនព្រមចុះចាញ់ យកឈ្នះពាក្យសម្ដីដែលតែងតែមើលងាយជាច្រើន ទោះបីជាពួកយើងមិនបានចាប់ផ្ដើមជាមួយគ្នាតាំងពីចំណុចដំបូង ប៉ុន្តែពួកយើងនឹងរួមដំណើរជាមួយគ្នាទៅមុខបន្តទៀត  💜</p>
+                <p>ហើយក៏អរគុណដល់ Bangtan ដែលតែងតែធ្វើជាអ្នកលួងលោម និងលើកទឹកចិត្តដល់ពួកយើង ទោះបីជាពួកយើងនៅឆ្ងាយគ្នា តែអ្នកតែងតែធ្វើឱ្យពួកយើងទទួលបានអារម្មណ៍មួយដ៏កក់ក្ដៅ 💜</p>
+                <div class="signature">_APOBANGPO_</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio -->
+    <audio id="music" loop>
+        <source src="BTS-Magic-Shop.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- Script to handle popup and music -->
+    <script>
+        const popup = document.getElementById('popup');
+        const music = document.getElementById('music');
+
+        popup.addEventListener('click', () => {
+            popup.style.opacity = '0';
+            popup.style.pointerEvents = 'none';
+            music.play();
+        });
+    </script>
+</body>
+<footer class="footer">
+        💜 © 2025 07 09 Bangtan Forever 💜
+</footer>
+</html>
