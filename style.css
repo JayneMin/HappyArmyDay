@@ -158,3 +158,113 @@ p{
     z-index: 50;
 }
 
+@media (max-width: 768px) {
+    .body {
+        margin-top: 50px;
+    }
+    
+    .card {
+        width: 90vw;
+        height: 70vh;
+        max-width: 400px;
+        max-height: 500px;
+    }
+    
+    .cardfront {
+        width: 90vw;
+        height: 70vh;
+        max-width: 400px;
+        max-height: 500px;
+    }
+    
+    .cardinside {
+        width: 90vw;
+        height: 70vh;
+        max-width: 400px;
+        max-height: 500px;
+        font-size: 16px;
+    }
+    
+    p {
+        margin: 15px 20px 10px 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .back {
+        margin: 20px;
+        font-size: 18px;
+    }
+    
+    .signature {
+        font-size: 16px;
+        bottom: 10px;
+        right: 15px;
+    }
+    
+    .popup-content {
+        padding: 20px 30px;
+        margin: 20px;
+    }
+    
+    .popup-content h2 {
+        font-size: 20px;
+    }
+    
+    .popup-content p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        width: 95vw;
+        height: 65vh;
+        max-width: 350px;
+        max-height: 450px;
+    }
+    
+    .cardfront {
+        width: 95vw;
+        height: 65vh;
+        max-width: 350px;
+        max-height: 450px;
+    }
+    
+    .cardinside {
+        width: 95vw;
+        height: 65vh;
+        max-width: 350px;
+        max-height: 450px;
+        font-size: 14px;
+    }
+    
+    p {
+        margin: 10px 15px 8px 15px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .back {
+        margin: 15px;
+        font-size: 16px;
+    }
+    
+    .signature {
+        font-size: 14px;
+        bottom: 8px;
+        right: 10px;
+    }
+    
+    .popup-content {
+        padding: 15px 20px;
+        margin: 15px;
+    }
+    
+    .popup-content h2 {
+        font-size: 18px;
+    }
+    
+    .popup-content p {
+        font-size: 12px;
+    }
+}
